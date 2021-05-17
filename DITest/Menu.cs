@@ -30,6 +30,11 @@ namespace DITest
         {
             ILogger logger = container.GetLogger();
             logger.Write("ログを表示します");
+
+            // get nowtime from timemanager;
+            // becouse
+            // mainloop(between target time)
+            
         }
     }
 }

@@ -58,7 +58,16 @@ namespace DITestTest
         public void TestTime()
         {
 
-            DateTime dateTime = DateTime.Now;
+            TimeSpan start = new TimeSpan(8, 0, 0);
+            TimeSpan end = new TimeSpan(17, 0, 0);
+            TimeSpan target = new TimeSpan(15, 0, 0);
+
+            if(start <= target && target <= end)
+            {
+                Console.WriteLine("時間内です");
+            }
+
+
 
         }
 

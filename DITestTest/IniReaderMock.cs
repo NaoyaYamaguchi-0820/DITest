@@ -11,7 +11,7 @@ namespace DITestTest
 
     class IniReaderMock : IIniReader
     {
-        public GetValueMock getValueMock;
+        private GetValueMock getValueMock;
 
         public IniReaderMock(GetValueMock getValueMock)
         {

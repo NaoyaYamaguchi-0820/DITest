@@ -8,15 +8,16 @@ namespace DITest
     public class Container : IContainer
     {
         private ILogger logger;
+        private IIniReader iniReader;
 
         public IIniReader GetIniReader()
         {
-            throw new NotImplementedException();
+            return this.iniReader;
         }
 
         public void SetIIniReader(IIniReader iniReader)
         {
-            throw new NotImplementedException();
+            this.iniReader = iniReader;
         }
 
         public ILogger GetLogger()
