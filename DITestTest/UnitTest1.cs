@@ -60,7 +60,6 @@ namespace DITestTest
 
             DateTime dateTime = DateTime.Now;
 
-            TimeSpan now = dateTime.
         }
 
     }
